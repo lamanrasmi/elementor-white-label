@@ -1,43 +1,63 @@
-=== Elementor White Label ===
-Contributors: namncn
-Donate link: https://namncn.com/donate/
+=== White Label Branding for Elementor Page Builder ===
+Contributors: ozancanakli
+Tags: elementor, elementor white label, elementor branding, elementor skin, page builder
+Requires at least: 3.4
+Tested up to: 5.3
+Stable tag: trunk
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
-Tags: elementor, elementor white label
-Tested up to: 4.9.6
-Requires PHP: 5.6.3
 
-White Label for Elementor Page Builder.
+Missing White Labeling feature for Elementor Page Builder.
 
 == Description ==
 
-White Label for Elementor Page Builder.
+**White Label Branding feature for Elementor Page Builder.**
+This plugin allows you to customize Elementor Page Builder with your personal branding.
+
+[youtube https://www.youtube.com/watch?v=LNlwNXcLYsY]
+
+[Watch the demo video to see it in action!](https://www.youtube.com/watch?v=LNlwNXcLYsY "Demo Video")
+
+
+
+
+**MAIN FEATURES:**
+
+* Elementor Editor Skin Color
+* Change Plugin Name
+* Change Plugin Description
+* Change Developer / Agency	
+* Change Website URL	
+* Change Menu Label	
+* Change Edit with Elementor Text
 
 == Installation ==
 
-=== From within WordPress ===
+1. Upload the entire white-label-branding-elementor folder to the /wp-content/plugins/ directory, or download and install automatically through your admin panel.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+You will find 'White Label Branding' menu in your Elementor section inside WP-admin menu.
 
-1. Visit 'Plugins > Add New'
-2. Search for 'Elementor White Label'
-3. Activate Elementor White Label from your Plugins page.
-4. Go to "after activation" below.
-
-=== Manually ===
-
-1. Upload the `elementor-white-label` folder to the `/wp-content/plugins/` directory
-2. Activate the Elementor White Label plugin through the 'Plugins' menu in WordPress
-3. Go to "after activation" below.
 
 == Frequently Asked Questions ==
 
-You'll find answers to many of your questions on (https://namncn.com/plugins/elementor-white-label/).
+= What does this plugin do? =
+
+This plugin allows you to customize Elementor Page Builder with your personal branding.
 
 == Screenshots ==
 
+1. White Label Branding Panel
+2. Custom Elementor Editor Skin Color
+3. White Label Branding
+4. Custom Elementor Editor Skin Color
+
 == Changelog ==
 
+= 1.0.2 =
+* Fixes WordPress conflict/compatibility
+
 = 1.0.1 =
-* Fix bugs.
+* Fixes Redirecs to Plugin settings after other plugins activated
 
 = 1.0.0 =
-* First release.
+* Initial release.
