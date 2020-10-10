@@ -72,7 +72,7 @@ function admin_notice_missing_main_plugin() {
         
         function wl_custom_admin() {
           echo '<style>
-        	.elementor-button-go-pro, a[href*="page=popup_templates"], a[href*="site-editor/promotion"], a[href*="go_elementor_pro"] {
+        	.elementor-button-go-pro, .go_pro, a[href*="page=popup_templates"], a[href*="site-editor/promotion"], a[href*="go_elementor_pro"] {
         		display:none !important;
         	}
         	</style>';
