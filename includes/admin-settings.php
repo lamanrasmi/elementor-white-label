@@ -50,6 +50,9 @@ $settings = self::get_settings();
 		}
 </style>
 
+
+
+
 <div class="wrap">
 
 	<div class="elwl-wrap">
@@ -140,6 +143,24 @@ $settings = self::get_settings();
 							<input id="elwlbranding_hide_logo" name="elwlbranding_hide_logo" type="checkbox" class="" value="off" <?php echo isset( $settings['hide_elementor_logo'] ) && 'on' == $settings['hide_elementor_logo'] ? ' checked="checked" ' : ''; ?> />
 						</td>
 					</tr>
+					
+					<tr valign="top">
+						<th scope="row" valign="top">
+							<label for="elwlbranding_hide_notice"><?php esc_html_e('Hide Elementor Pro Elements', 'el-wl-branding'); ?></label>
+						</th>
+						<td>
+							<input id="elwlbranding_hide_proelements" name="elwlbranding_hide_proelements" type="checkbox" class="" value="off" <?php echo isset( $settings['hide_elementor_proelements'] ) && 'on' == $settings['hide_elementor_proelements'] ? ' checked="checked" ' : ''; ?> />
+						</td>
+					</tr>
+					
+					<tr valign="top">
+						<th scope="row" valign="top">
+							<label for="elwlbranding_hide_builder"><?php esc_html_e('Hide Elementor Theme Builder', 'el-wl-branding'); ?></label>
+						</th>
+						<td>
+							<input id="elwlbranding_hide_builder" name="elwlbranding_hide_builder" type="checkbox" class="" value="off" <?php echo isset( $settings['hide_elementor_builder'] ) && 'on' == $settings['hide_elementor_builder'] ? ' checked="checked" ' : ''; ?> />
+						</td>
+					</tr>
 
 				</tbody>
 			</table>
@@ -157,3 +178,4 @@ $settings = self::get_settings();
 	    $('.color-field').wpColorPicker();
 	});
 </script>
+
