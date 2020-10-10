@@ -165,6 +165,8 @@ final class Elementor_WL_Branding {
 				'elementor_skin_color'      => '',
 				'elementor_update_btn_color'=> '',
 				'hide_elementor_logo'      => 'off',
+				'hide_elementor_proelements'      => 'off',
+				'hide_elementor_builder'      => 'off',
 			);
 
 			$settings = self::get_option( 'elwlbranding_settings', true );
@@ -294,6 +296,8 @@ final class Elementor_WL_Branding {
 			$settings['elementor_skin_color']       = isset( $_POST['elwlbranding_skin_color'] ) ? sanitize_text_field( $_POST['elwlbranding_skin_color'] ) : '';
 			$settings['elementor_update_btn_color'] = isset( $_POST['elwlbranding_update_button_color'] ) ? sanitize_text_field( $_POST['elwlbranding_update_button_color'] ) : '';
 			$settings['hide_elementor_logo']        = isset( $_POST['elwlbranding_hide_logo'] ) ? 'on' : 'off';
+			$settings['hide_elementor_proelements'] = isset( $_POST['elwlbranding_hide_proelements'] ) ? 'on' : 'off';
+			$settings['hide_elementor_builder']     = isset( $_POST['elwlbranding_hide_builder'] ) ? 'on' : 'off';
 
 
 			update_site_option( 'elwlbranding_settings', $settings );
