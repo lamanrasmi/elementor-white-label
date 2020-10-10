@@ -2,7 +2,7 @@
 Contributors: ozancanakli
 Tags: elementor, elementor white label, elementor branding, elementor skin, page builder
 Requires at least: 3.4
-Tested up to: 5.3
+Tested up to: 5.5.1
 Stable tag: trunk
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
