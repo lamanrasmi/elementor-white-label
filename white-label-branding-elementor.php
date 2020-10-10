@@ -62,3 +62,19 @@ function admin_notice_missing_main_plugin() {
 	printf( '<div class="notice notice-warning is-dismissible"><p>%1$s</p></div>', $message );
 
 }
+
+
+
+
+
+    
+        add_action('admin_head', 'wl_custom_admin');
+        
+        function wl_custom_admin() {
+          echo '<style>
+        	.elementor-button-go-pro, a[href*="page=popup_templates"], a[href*="site-editor/promotion"], a[href*="go_elementor_pro"] {
+        		display:none !important;
+        	}
+        	</style>';
+        }
+ 
