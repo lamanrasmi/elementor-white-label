@@ -43,3 +43,15 @@
 	}
 <?php endif; ?>	
 
+<?php if ( 'on' == $settings['hide_elementor_proelements'] ) : ?>
+	#elementor-panel-category-pro-elements, #elementor-panel-get-pro-elements, a[href*="https://go.elementor.com"], .elementor-nerd-box, .elementor-element--promotion {
+		display:none !important;
+	}
+<?php endif; ?>	
+
+<?php if ( 'on' == $settings['hide_elementor_builder'] ) : ?>
+	.elementor-panel-menu-item-site-editor {
+		display:none !important;
+	}
+<?php endif; ?>	
+
